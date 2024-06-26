@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+from covariance import covariance
+
 def get_covariance_matrix(df: pd.DataFrame):
   """
   Calculate the covariance matrix for the given DataFrame.
